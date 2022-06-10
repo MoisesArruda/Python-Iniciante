@@ -13,11 +13,18 @@ type(b); #Retorno do tipo de dado
 a.upper(); #Me retorna o valor em maiúsuclo
 a.lower(); #Me retorna em minusculo
 
-nome = input("Qual é seu nome?"); #Salvando temporariamente informações inseridas pelo usuário
+#Salvando temporariamente informações inseridas pelo usuário
+nome = input("Qual é seu nome?"); 
 idade = input("Qual é sua idade?");
 altura = input("Qual é sua altura?");
 
 print(nome, idade, altura); #Todas as informações inseridas pelo usuário retornadas em uma linha
+
+dia_nascimento = input("Que dia você nasceu? ");
+mes_nascimento = input("Mês de nascimento? ");
+ano_nascimento = input("Ano de nascimento? ");
+
+print("Data de nascimento :", dia_nascimento, "/", mes_nascimento, "/", ano_nascimento); 
 
 #Conversão de valores
 conv1 = 9 #int
