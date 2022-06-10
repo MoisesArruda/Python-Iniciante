@@ -1,0 +1,26 @@
+Print("Welcome to the Python class one"); #Código que retorna o valor digitado
+print(5+2) #Ele pode me retornar cálculos matemáticos
+
+#Variáveis - Estruturas de dados que podem ser salvas para uma utilização futura, cada uma respeitando sua própria regra
+a = "Eu sou um tipo string";
+print(a); # Retorno da minha váriavel
+b = 521; #Tipo Int
+c = 34.1; #Tipo float
+print(b, c);
+
+type(b); #Retorno do tipo de dado
+
+a.upper(); #Me retorna o valor em maiúsuclo
+a.lower(); #Me retorna em minusculo
+
+nome = input("Qual é seu nome?"); #Salvando temporariamente informações inseridas pelo usuário
+idade = input("Qual é sua idade?");
+altura = input("Qual é sua altura?");
+
+print(nome, idade, altura); #Todas as informações inseridas pelo usuário retornadas em uma linha
+
+#Conversão de valores
+conv1 = 9 #int
+conv2 = 6.0 #float
+float(conv1); #O valor será retornado de 9 para 9.0
+int(conv2); #O valor sera convertido de 6.0 para 6
