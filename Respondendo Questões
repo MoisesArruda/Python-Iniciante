@@ -1,0 +1,66 @@
+"""Abra a página https://wiki.python.org.br/EstruturaSequencial e acompanhe a resolução comigo
+1 - """
+print("Alo mundo")
+#numero = input("informe um numero:\n")
+print("Numero escolhido:\n",numero)
+
+# 2 -
+n1 = int(input("Digíte um número"))
+print("O número é: ",n1)
+
+# 3 -
+n1 = int(input("Primeiro valor para soma:\n"))
+n2 = int(input("Segundo valor para soma:\n"))
+soma = n1+n2
+print('resultado final:\n',soma)
+
+# 4 -
+av1 = float(input("Nota da avaliação 1:\n"))
+av2 = float(input("segunda avaliação:\n"))
+av3 = float(input("Av3...:\n"))
+av4 = float(input("A última nota: \n"))
+media = (av1 + av2 + av3 + av4) /4
+print("Av1: {}, Av2 :{}, Av3: {}, Av4: {}, média do aluno: {}".format(av1,av2,av3,av4,media))
+
+# 5 -
+metro = float(input("Digíte seu metro:\n"))
+cm = metro * 100
+print(cm)
+metro = float(input("Digíte seu metro:\n"))
+print('O valor {}m em centimetros é {:.1f}cm'.format(metro, metro * 100))
+
+# 6-
+
+# 7 -
+
+# 8 -
+hora = float(input("Valor por hora:\n"))
+horas_total = float(input("Horas trabalhadas no mês: \n"))
+total = hora * horas_total
+print("Se por hora você recebe {} e trabalha um total de {:.0f} horas no mês,seu salário ao final do mês é de {}".format(hora,horas_total,total))
+
+# 9 -
+
+# 10 -
+
+# 11 -
+
+# 12 -
+
+# 13 -
+
+# 14 -
+
+# 15 - hora = float(input("Valor por hora:\n"))
+horas_total = float(input("Horas trabalhadas no mês: \n"))
+total = hora * horas_total
+inss = total * 0.08
+ir = total * 0.11
+sindicato = total * 0.05
+liquido = total - inss - ir - sindicato
+print("Seu salário bruto é de {}, - 8%(inss) {:.2f}, - 11%(ir){:.2f}, - 5%(sindicato){:.2f}, liquido será no valor de {:.2f} ".format(total,inss,ir,sindicato,liquido))
+
+
+
+
+
