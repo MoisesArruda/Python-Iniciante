@@ -17,7 +17,7 @@ print("O filme {0} tem uma avaliação de {1} pelo usuário".format(filme,nota))
 
 
 """Estruturação dos Dados de forma organizada, nossa lógica e algoritmos serão criados com base neles:
-Lista []- Dados mutáveis e com o mesmo tipo(str,int etc)
+Lista []- Dados mutáveis
 Tupla ()- Dados imutáveis e variados
 Dicionário {} - Uma chave pode assumir um ou mais valores, se atentar ao conceito de {key:value}"""
 
