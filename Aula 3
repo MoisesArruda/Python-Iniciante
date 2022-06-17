@@ -14,3 +14,33 @@ print("Av1", n1, "Av2",n2, "Av3",n3,"sua média final é: ",media)
 filme = input("Digite o filme escolhido aqui: ") #Por padrão, todos os inputs são definidos automaticamente como string
 nota = float(input("Sua nota para o filme: "))
 print("O filme {0} tem uma avaliação de {1} pelo usuário".format(filme,nota))
+
+
+"""Estruturação dos Dados de forma organizada, nossa lógica e algoritmos serão criados com base neles:
+Lista []- Dados mutáveis
+Tupla ()- Dados imutáveis e variados
+Dicionário {} - Uma chave pode assumir um ou mais valores, se atentar ao conceito de {key:value}"""
+
+#Tupla
+tupla_ex = ("Tipo_String", 20, True, 620.40)
+print(tupla_ex)
+tupla_ex[0]
+del tupla_ex[0,1,2,3] #Não me permite deletar os dados, por serem permanentes
+
+#Listas
+lista_carro = ["Volante, Banco ,Retrovisor"] #Se atente que eu criei apenas um valor em minha lista
+lista_carro[0]
+del lista_carro[0] #logo se eu excluir o primeiro valor, excluirei toda a informação contida nela
+
+lista_carro2 = ["Volante","Banco","Retrovisor"]
+lista_carro2[0]
+lista_carro2.append("Rodas") #Adicionando um valor
+print(lista_carro2)
+lista_carro2.insert(1,"Rádio") #Definindo a posição que o valor será inserido
+lista_carro2.remove("Banco") #Valor que será excluido
+del lista_carro2[1] #Posição do valor para excluir
+print(lista_carro2)
+len(lista_carro2)
+lista_carro2[2] = "Pneus" #Alterando o elemento Rodas para Pneus
+
+
