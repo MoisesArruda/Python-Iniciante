@@ -1,0 +1,34 @@
+
+if 5 > 4:
+      print("Exemplo de condicional")
+
+if 10 < 5:
+    print("Condição verdadeira")
+else:
+    print("Condição falsa")
+
+idade = int(input("Diga sua idade:\n"))
+if idade > 18:
+    print("Você pode dirigir")
+else:   print("Voce não pode dirigir")
+
+nacionalidade = input("Diga sua nacionalidade:\n")
+if nacionalidade == "Americano":
+    print("Você não precisa de visto")
+else:   print("Entrada negada")
+
+idade = int(input("Digite sua idade:\n"))
+cnh = input("Você tem habilitação?")
+if idade >= 18 and cnh =="sim":
+        print("Você pode dirigir")
+else: print ("Você não irá dirigir")
+
+mês = input("digite um mês do ano: ")
+if mês == "Janeiro":
+    print("Estação do ano: Verão")
+elif mês == "Março" or "Abril":
+    print("Estação do ano: Primavera")
+elif mês == "Maio" or "Junho":
+    print("Estação do ano: Inverno")
+else:
+    print("Estação do ano: Outono")
