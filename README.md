@@ -11,5 +11,7 @@ Usando como base os cursos da Data Science Academy, Seja um Analista de Dados, G
 
 ### Contruido com:
 -Anaconda
+
 -Jupyter Notebook
+
 -Pandas
