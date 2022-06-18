@@ -1,5 +1,7 @@
 # Linguagem Python
-## Usando como base os cursos da Data Science Academy, Seja um Analista de Dados, Gustavo Guanabara entre outros.
+Usando como base os cursos da Data Science Academy, Seja um Analista de Dados, Gustavo Guanabara entre outros.
+
+## Aulas e projetos
 
 [Aula 1](https://github.com/MoisesArruda/Python-Iniciante/blob/main/Aula%201) - Print, variáveis, type, upper, lower, input, conversão de valores
 
