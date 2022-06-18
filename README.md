@@ -8,3 +8,8 @@ Usando como base os cursos da Data Science Academy, Seja um Analista de Dados, G
 [Aula 2](https://github.com/MoisesArruda/Python-Iniciante/blob/main/Aula%202) - Operadores lógicos, concatenando, bool
 
 [Aula 3](https://github.com/MoisesArruda/Python-Iniciante/blob/main/Aula%203) - float(input), int(input), .format
+
+### Contruido com:
+-Anaconda
+-Jupyter Notebook
+-Pandas
